@@ -22,7 +22,7 @@ The project assumes that you have a CSV file named train.csv that contains your 
 - feature_1 to feature_n represent the input features of the images.
 Ensure that you update the file path in the code where the dataset is loaded:
 
-  `train_data = pd.read_csv('/path/to/train.csv')`
+ `train_data = pd.read_csv('/path/to/train.csv')`
 
 ## Model Architecture
 The model architecture used for fake image detection is a convolutional neural network (CNN) consisting of multiple layers:
@@ -48,11 +48,11 @@ To generate predictions for the test data, follow these steps:
 - Load the test data.
 - Ensure that you update the file path in the code where the test dataset is loaded:
   
-  `test_data = pd.read_csv('/path/to/test.csv')`
+`test_data = pd.read_csv('/path/to/test.csv')`
 - Use the trained model to make predictions.
 - Create a solution file that contains the predictions.
   
-  `result_df.to_csv('/path/to/predictions.csv', index=False)`
+`result_df.to_csv('/path/to/predictions.csv', index=False)`
 
 ## Result:
   
