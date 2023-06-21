@@ -46,6 +46,9 @@ To train and evaluate the model, run the following command:
 To generate predictions for the test data, follow these steps:
 
 - Load the test data.
+- Ensure that you update the file path in the code where the test dataset is loaded:
+  
+  `test_data = pd.read_csv('/path/to/test.csv')`
 - Use the trained model to make predictions.
 - Create a solution file that contains the predictions.
   
