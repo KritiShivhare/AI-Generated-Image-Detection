@@ -33,6 +33,8 @@ The model architecture used for fake image detection is a convolutional neural n
 - Dense layers with ReLU activation functions to perform classification.
 - Output layer with softmax activation function to produce class probabilities.
 
+   <img width="721" alt="image" src="https://github.com/KritiShivhare/AI-Generated-Image-Detection/assets/101329726/78ef480a-7d14-401d-880c-4c08173b5cec">
+
 ## Training and Evaluation
 The code splits the dataset into training and testing sets using an 80:20 ratio. It then trains the model on the training set and evaluates its performance on the testing set.
 
@@ -48,6 +50,14 @@ To generate predictions for the test data, follow these steps:
 - Create a solution file that contains the predictions.
   
   `result_df.to_csv('/path/to/predictions.csv', index=False)`
+
+  ## Result:
+  
+
+
+
+ 
+
 
  
 
