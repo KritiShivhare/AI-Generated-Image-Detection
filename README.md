@@ -51,8 +51,10 @@ To generate predictions for the test data, follow these steps:
   
   `result_df.to_csv('/path/to/predictions.csv', index=False)`
 
-  ## Result:
+## Result:
   
+  Accuracy: 85.3%
+
 
 
 
